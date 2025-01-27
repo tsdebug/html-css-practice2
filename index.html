@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/html-css-practice2/css/style.css">
+    <link rel="stylesheet" href="/html-css-practice2/css/normalise.css">
+</head>
+<body>
+    <h1>Heading</h1>
+    <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione modi ut voluptas corrupti suscipit maxime iste, a, quos magni quisquam, eius placeat aperiam expedita ipsa ducimus sunt consequuntur alias commodi! Tempora autem architecto itaque blanditiis, molestiae saepe quibusdam praesentium alias a, exercitationem doloremque esse optio maiores eos, consequatur expedita consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione modi ut voluptas corrupti suscipit maxime iste, a, quos magni quisquam, eius placeat aperiam expedita ipsa ducimus sunt consequuntur alias commodi! Tempora autem architecto itaque blanditiis, molestiae saepe quibusdam praesentium alias a, exercitationem doloremque esse optio maiores eos, consequatur expedita consequuntur.</p>
+    <h1>Heading</h1>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> Ratione modi ut voluptas corrupti suscipit maxime iste, a, quos magni quisquam, eius placeat aperiam expedita ipsa ducimus sunt consequuntur alias commodi! Tempora autem architecto itaque blanditiis, molestiae saepe quibusdam praesentium alias a, exercitationem doloremque esse optio maiores eos, consequatur expedita consequuntur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione modi ut voluptas corrupti suscipit maxime iste, a, quos magni quisquam, eius placeat aperiam expedita ipsa ducimus sunt consequuntur alias commodi! Tempora autem architecto itaque blanditiis, molestiae saepe quibusdam praesentium alias a, exercitationem doloremque esse optio maiores eos, consequatur expedita consequuntur.</p>
+    <hr>
+    <!-- Clipping images -->
+ <span><img  class="coffee" src="/html-css-practice2/css/img/coffee.avif" height="300px" alt="coffee">  </span><span><img  class="coffee" src="/html-css-practice2/css/img/coffee.avif" height="300px" height="300px"></span>
+ <hr>
+ <img  class="meal" src="/html-css-practice2/css/img/meal.jpg" height="300px" alt="Dal & chawal">
+ <hr>
+ <!-- Forms -->
+ <form class="abc">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="E-mail">
+    </div>
+    <button type="submit">Register</button>
+    <button type="reset">Clear</button>
+ </form>
+ <hr>
+ <form class="xyz">
+    <div><input type="number" placeholder="Age"></div>
+    <div><input type="date" placeholder="DOB"></div>
+    <div></div><textarea cols="30" rows="2">Feedback</textarea></div>
+ </form>
+ <hr>
+ <form>
+    <input type="text" list="answer" placeholder="Answer">
+    <datalist id="answer">
+        <option>Yes</option>
+        <option>No</option>
+        <option>Maybe</option>
+        <option>Maybe not</option>
+    </datalist>
+    <div><input type="range" min="0" max="100" value="65"></div>
+    <div><input type="file"></div>
+ </form>
+ <hr>
+ <!-- Grouping of same elements -->
+ <form>
+    <fieldset>
+        <legend>Billing address</legend>
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </fieldset>
+    <fieldset>
+        <legend>Payment</legend>
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </fieldset>
+ </form>
+ <hr>
+ <!-- Form data validation -->
+  <form>
+    <input type="text" required>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
